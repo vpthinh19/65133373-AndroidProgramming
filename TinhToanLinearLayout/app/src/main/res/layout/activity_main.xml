@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <!--Container-->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginBottom="50dp">
+
+        <!--    Container input 1    -->
+        <LinearLayout
+            android:id="@+id/llContainerInput1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp">
+
+            <TextView
+                android:id="@+id/tvLabelInput1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Số thứ nhất"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilInput1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                style="@style/Widget.Material3.TextInputLayout.FilledBox"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusBottomEnd="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInput1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:hint="Nhập số thứ nhất"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <!--   Container input 2     -->
+        <LinearLayout
+            android:id="@+id/llContainerInput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp">
+
+            <TextView
+                android:id="@+id/tvLabelInput2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Số thứ hai"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilInput2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                style="@style/Widget.Material3.TextInputLayout.FilledBox"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusBottomEnd="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etInput2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:hint="Nhập số thứ hai"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <!--   Container inpur 3     -->
+        <LinearLayout
+            android:id="@+id/llContainerInput3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="15dp">
+
+            <Button
+                android:id="@+id/btnPlusOp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:text="+"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?attr/colorOnPrimary"/>
+
+            <Button
+                android:id="@+id/btnSubOp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:text="-"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?attr/colorOnPrimary"/>
+
+            <Button
+                android:id="@+id/btnMulOp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:text="*"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?attr/colorOnPrimary"/>
+
+            <Button
+                android:id="@+id/btnDivOp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:text="/"
+                android:backgroundTint="?attr/colorPrimary"
+                android:textColor="?attr/colorOnPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llContainerInput4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="5dp"
+            android:gravity="center">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/Widget.Material3.TextInputLayout.FilledBox"
+                app:boxStrokeWidth="0dp"
+                app:boxCornerRadiusTopStart="15dp"
+                app:boxCornerRadiusTopEnd="15dp"
+                app:boxCornerRadiusBottomStart="15dp"
+                app:boxCornerRadiusBottomEnd="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="Kết quả"
+                    android:enabled="false"
+                    android:focusable="false"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
