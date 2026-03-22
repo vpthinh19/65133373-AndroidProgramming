@@ -10,6 +10,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,8 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        String[] items = {"A", "B", "C"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items);
+        List<CustomData> datas = new ArrayList<>();
+        for (int i=0; i<20; i++){
+            datas.add(new CustomData(String.valueOf("key: " + i), String.valueOf("value: " + i)));
+        }
+        CustomAdapter adapter = new CustomAdapter(this, datas);
         ListView listView = findViewById(R.id.lvContainer);
         listView.setAdapter(adapter);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
