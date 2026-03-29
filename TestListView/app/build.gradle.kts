@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.vpt.listview1"
+    namespace = "com.vpt.testlistview"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1

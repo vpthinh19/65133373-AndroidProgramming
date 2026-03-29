@@ -1,4 +1,4 @@
-package com.vpt.listview1;
+package com.vpt.testlistview;
 
 public class CustomData {
     public String text1;

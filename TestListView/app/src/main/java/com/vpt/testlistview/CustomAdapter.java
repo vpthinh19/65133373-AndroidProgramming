@@ -1,4 +1,4 @@
-package com.vpt.listview1;
+package com.vpt.testlistview;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,9 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.zip.Inflater;
 
 public class CustomAdapter extends BaseAdapter {
     public List<CustomData> items;

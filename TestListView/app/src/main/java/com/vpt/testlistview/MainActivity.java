@@ -1,9 +1,8 @@
-package com.vpt.listview1;
+package com.vpt.testlistview;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -25,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         List<CustomData> datas = new ArrayList<>();
         for (int i=0; i<20; i++){
-            datas.add(new CustomData(String.valueOf("key: " + i), String.valueOf("value: " + i)));
+            datas.add(new CustomData(String.valueOf("first line of " + i), String.valueOf("second line of " + i)));
         }
         CustomAdapter adapter = new CustomAdapter(this, datas);
         ListView listView = findViewById(R.id.lvContainer);
