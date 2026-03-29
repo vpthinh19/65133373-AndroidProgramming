@@ -11,11 +11,11 @@
 ---
 
 ## Hello World
-[Hello World](HelloWorld/app/src/main)
+[Hello World](HelloWorld/app/src/main/)
 ![Hello World](images/Screenshot_2026_03_29_22_25_58_156_com_example_helloword_edit.png)
 
 ## Tính tổng
-[Tính tổng](TinhTong/app/src/main)
+[Tính tổng](TinhTong/app/src/main/)
 ![Tính tổng](images/Screenshot_2026-03-29-22-23-09-231_com.example.tinhtong-edit.png)
 
 ## Tính toán (Linear Layout)
