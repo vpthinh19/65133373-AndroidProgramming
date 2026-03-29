@@ -13,6 +13,7 @@
 ## Hello World
 [Hello World](HelloWorld/app/src/main/)
 ![Hello World](images/Screenshot_2026_03_29_22_25_58_156_com_example_helloword_edit.png)
+<img src="images/Screenshot_2026_03_29_22_25_58_156_com_example_helloword_edit.png" height=300>
 
 ## Tính tổng
 [Tính tổng](TinhTong/app/src/main/)
