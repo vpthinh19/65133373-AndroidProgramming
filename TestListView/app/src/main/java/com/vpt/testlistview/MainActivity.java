@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 CustomData data = (CustomData) parent.getItemAtPosition(position);
-                Toast.makeText(MainActivity.this, "Selected id: " + data.text1, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Selected id: " + position, Toast.LENGTH_SHORT).show();
             }
         });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
