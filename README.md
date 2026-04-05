@@ -66,8 +66,7 @@
 ## [Dynamic Fragment](DynamicFragment/app/src/main/)
 
 <p align="center">
-    <img src="images/Screenshot_2026_04_05_13_50_21_680_com_vpt_dynamicfragment_edit.png
-    " width=35%>
+    <img src="images/Screenshot_2026_04_05_13_50_21_680_com_vpt_dynamicfragment_edit.png" width=35%>
 </p>
 
 ## [Replacing Dynamic Fragment](ReplacingDynamicFragment/app/src/main/)
