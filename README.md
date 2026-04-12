@@ -12,6 +12,7 @@
 - [Static Fragment](#static-fragment)
 - [Dynamic Fragment](#dynamic-fragment)
 - [Replacing Dynamic Fragment](#replacing-dynamic-fragment)
+- [Bottom NavBar](#bottom-navbar)
 ---
 
 ## [Hello World](HelloWorld/app/src/main/)
@@ -75,4 +76,12 @@
     <img src="images/Screenshot_2026_04_05_13_47_06_987_com_vpt_replacingdynamicfragment.png" width=30%>
     <img src="images/Screenshot_2026_04_05_13_47_16_892_com_vpt_replacingdynamicfragment.png" width=30%>
     <img src="images/Screenshot_2026_04_05_13_47_21_861_com_vpt_replacingdynamicfragment.png" width=30%>
+</p>
+
+## [Bottom NavBar](BottomNavBar/app/src/main/)
+
+<p align="center">
+    <img src="images/Screenshot_2026-04-12-15-47-43-170_com.vpt.bottomnavbar-edit.png" width=30%>
+    <img src="images/Screenshot_2026-04-12-15-47-49-906_com.vpt.bottomnavbar-edit.png" width=30%>
+    <img src="images/Screenshot_2026-04-12-15-48-41-271_com.vpt.bottomnavbar-edit.png" width=30%>
 </p>
