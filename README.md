@@ -13,6 +13,7 @@
 - [Dynamic Fragment](#dynamic-fragment)
 - [Replacing Dynamic Fragment](#replacing-dynamic-fragment)
 - [Bottom NavBar](#bottom-navbar)
+- [Thi giữa kỳ](#thi-giữa-kỳ)
 ---
 
 ## [Hello World](HelloWorld/app/src/main/)
