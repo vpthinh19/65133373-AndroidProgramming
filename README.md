@@ -87,8 +87,8 @@
     <img src="images/Screenshot_2026-04-12-15-48-41-271_com.vpt.bottomnavbar-edit.png" width=30%>
 </p>
 
-## [Thi Giữa Kỳ](ThiGK2ViPhucThinh/app/src/main/)
+## [Thi Giữa Kỳ](ThiGK2ViPhucThinh2/app/src/main/)
 
 <p align="center">
-    <img src="" width=30%>
+    <img src="images/Screenshot_20260420_082930.png" width=30%>
 </p>
