@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
@@ -29,6 +30,7 @@ public class Tab1Fragment extends Fragment {
     private String mParam1;
     private String mParam2;
     private TextInputEditText money;
+    private Button btn;
     private TextView res;
 
     public Tab1Fragment() {
@@ -74,6 +76,12 @@ public class Tab1Fragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         money = view.findViewById(R.id.tab1_money_input);
         res = view.findViewById(R.id.tab1_res);
-        
+        btn = view.findViewById(R.id.tab1_btn);
+        btn.setOnClickListener(v -> {
+            double tien = Double.parseDouble(money.getEditableText().toString());
+            String ketqua = String.valueOf(tien / 25);
+            res.setText(ketqua);
+        });
+
     }
 }
