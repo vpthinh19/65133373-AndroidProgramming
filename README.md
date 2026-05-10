@@ -14,6 +14,7 @@
 - [Replacing Dynamic Fragment](#replacing-dynamic-fragment)
 - [Bottom NavBar](#bottom-navbar)
 - [Thi giữa kỳ](#thi-giữa-kỳ)
+- [Việc cần làm](#việc-cần-làm)
 ---
 
 ## [Hello World](HelloWorld/app/src/main/)
@@ -91,4 +92,12 @@
 
 <p align="center">
     <img src="images/Screenshot_20260420_082930.png" width=30%>
+</p>
+
+## [Việc cần làm](ViecCanlam/app/src/main/)
+
+<p align="center">
+    <img src="images/Screenshot_2026-05-11-02-28-01-518_com.vpt.vieccanlam-edit.png" width=30%>
+    <img src="images/Screenshot_2026-05-11-02-28-22-131_com.vpt.vieccanlam-edit.png" width=30%>
+    <img src="images/Screenshot_2026-05-11-02-28-34-346_com.vpt.vieccanlam-edit.png" width=30%>
 </p>
