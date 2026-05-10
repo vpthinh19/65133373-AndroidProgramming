@@ -94,7 +94,7 @@
     <img src="images/Screenshot_20260420_082930.png" width=30%>
 </p>
 
-## [Việc cần làm](ViecCanlam/app/src/main/)
+## [Việc cần làm](ViecCanLam/app/src/main/)
 
 <p align="center">
     <img src="images/Screenshot_2026-05-11-02-28-01-518_com.vpt.vieccanlam-edit.png" width=30%>
